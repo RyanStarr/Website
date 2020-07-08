@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on Ryan Starr</title>
+    <link>https://ryanstarr.co.uk/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on Ryan Starr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ryanstarr.co.uk/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Proxmox Setup</title>
+      <link>https://ryanstarr.co.uk/posts/virtualisation/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/posts/virtualisation/setup/</guid>
+      <description>&lt;p&gt;Proxmox is hosted on my Dell R710 server. With 24 threads, 32GB of RAM and 2 TB of storage. Whilst the R710
+is a powerfull system, it is very power hungry. With a minimum power draw of 180w. As a result I have made
+the decision to only run the server when I wish to mess around with virtual machines.
+It&amp;rsquo;s main purpose is for developing more solid applications that can be deployed to more power efficient systems.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

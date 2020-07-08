@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Proxmox Setup - Ryan Starr</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Proxmox Setup" />
+<meta property="og:description" content="Proxmox is hosted on my Dell R710 server. With 24 threads, 32GB of RAM and 2 TB of storage. Whilst the R710
+is a powerfull system, it is very power hungry. With a minimum power draw of 180w. As a result I have made
+the decision to only run the server when I wish to mess around with virtual machines.
+It&rsquo;s main purpose is for developing more solid applications that can be deployed to more power efficient systems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ryanstarr.co.uk/posts/virtualisation/setup/" />
+
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Ryan Starr" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Ryan Starr</div>
+					<div class="logo__tagline">Personal Blog</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				<i class='fa fa-heart'></i>
+				<span class="menu__text">Home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/skills-experience">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Skills/Experience</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/posts">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Blog Posts</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://git.ryanstarr.co.uk">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Personal Gitlab</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="https://files.ryanstarr.co.uk">
+				<i class='fa fa-road'></i>
+				<span class="menu__text">Cloud Storage</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+		<header class="post__header">
+			<h1 class="post__title">Proxmox Setup</h1>
+			<div class="post__meta meta"><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/virtualisation/" rel="category">Virtualisation</a>
+	</span>
+</div></div>
+		</header><div class="content post__content clearfix">
+			<p>Proxmox is hosted on my Dell R710 server. With 24 threads, 32GB of RAM and 2 TB of storage. Whilst the R710
+is a powerfull system, it is very power hungry. With a minimum power draw of 180w. As a result I have made
+the decision to only run the server when I wish to mess around with virtual machines.
+It&rsquo;s main purpose is for developing more solid applications that can be deployed to more power efficient systems.</p>
+<h2 id="current-vms-in-use">Current VM&rsquo;s in use</h2>
+<ul>
+<li>pfSense</li>
+<li>Ubuntu Server (Kuberntes nodes at the current time)</li>
+<li>Windows 10</li>
+<li>Windows Server 2019</li>
+</ul>
+<h2 id="modifications">Modifications</h2>
+<p>I have a script that runs constantly from a Rapberry Pi that manually reduces the power of the servers fans.
+This means that the server is able to be left on without anyone complaining about noise (It lives in my room).
+With the software hack the sound is about the same sound as a typical desktop PC.</p>
+<p>The one downside to this script though is I have to adjust the fan speed based upon the ambient temperature and
+not on the CPU temperature. According to the homelab community Dell just seem to have removed the ability to see
+the CPU temperature. as it isn&rsquo;t visible withing the Dell iDrac interface or bios either.</p>
+<h2 id="potential-upgrades">Potential upgrades</h2>
+<ul>
+<li>Install an IT flashed HBA card to enable ZFS to be used on the installed drives.</li>
+<li>Install SSD&rsquo;s to reduce power consumption.</li>
+<li>(Bit extreme) Run the server off of a solar panel and battery bank.</li>
+</ul>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/proxmox/" rel="tag">Proxmox</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/dell-r710/" rel="tag">Dell R710</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/kubernetes/" rel="tag">Kubernetes</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/ubuntu/" rel="tag">Ubuntu</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/windows-server/" rel="tag">Windows Server</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/pfsense/" rel="tag">pfSense</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "message": "This website uses cookies to ensure you get the best experience. ",
+    "href": "https://ryanstarr.co.uk/cookies"
+  }
+});
+</script>
+
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/raspberry-pi/pi-setup/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Raspberry Pi Setup</p>
+		</a>
+	</div>
+</nav>
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q" aria-label="SEARCH...">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://ryanstarr.co.uk" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/raspberry-pi/pi-setup/">Raspberry Pi Setup</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/virtualisation/setup/">Proxmox Setup</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/raspberry-pi/">Raspberry Pi</a>
+			</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/virtualisation/">Virtualisation</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/dell-r710/" title="Dell R710">Dell R710 (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/docker/" title="Docker">Docker (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gitlab/" title="Gitlab">Gitlab (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/kubernetes/" title="Kubernetes">Kubernetes (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/nextcloud/" title="Nextcloud">Nextcloud (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/pfsense/" title="pfSense">pfSense (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/proxmox/" title="Proxmox">Proxmox (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/r710-fan-script/" title="R710 fan script">R710 fan script (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/ubuntu/" title="Ubuntu">Ubuntu (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/vpn/" title="VPN">VPN (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/website/" title="Website">Website (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows-server/" title="Windows Server">Windows Server (1)</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 Ryan Starr.
+			
+		</div>
+	</div>
+</footer>
+
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>

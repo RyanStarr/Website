@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ryan Starr</title>
+    <link>https://ryanstarr.co.uk/tags/</link>
+    <description>Recent content in Tags on Ryan Starr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jul 2020 02:34:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://ryanstarr.co.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker</title>
+      <link>https://ryanstarr.co.uk/tags/docker/</link>
+      <pubDate>Thu, 02 Jul 2020 02:34:24 +0100</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gitlab</title>
+      <link>https://ryanstarr.co.uk/tags/gitlab/</link>
+      <pubDate>Thu, 02 Jul 2020 02:34:24 +0100</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/gitlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nextcloud</title>
+      <link>https://ryanstarr.co.uk/tags/nextcloud/</link>
+      <pubDate>Thu, 02 Jul 2020 02:34:24 +0100</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/nextcloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R710 fan script</title>
+      <link>https://ryanstarr.co.uk/tags/r710-fan-script/</link>
+      <pubDate>Thu, 02 Jul 2020 02:34:24 +0100</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/r710-fan-script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VPN</title>
+      <link>https://ryanstarr.co.uk/tags/vpn/</link>
+      <pubDate>Thu, 02 Jul 2020 02:34:24 +0100</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://ryanstarr.co.uk/tags/website/</link>
+      <pubDate>Thu, 02 Jul 2020 02:34:24 +0100</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dell R710</title>
+      <link>https://ryanstarr.co.uk/tags/dell-r710/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/dell-r710/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://ryanstarr.co.uk/tags/kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pfSense</title>
+      <link>https://ryanstarr.co.uk/tags/pfsense/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/pfsense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proxmox</title>
+      <link>https://ryanstarr.co.uk/tags/proxmox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/proxmox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://ryanstarr.co.uk/tags/ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows Server</title>
+      <link>https://ryanstarr.co.uk/tags/windows-server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/tags/windows-server/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

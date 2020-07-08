@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Ryan Starr</title>
+    <link>https://ryanstarr.co.uk/categories/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Ryan Starr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jul 2020 02:34:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://ryanstarr.co.uk/categories/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi Setup</title>
+      <link>https://ryanstarr.co.uk/posts/raspberry-pi/pi-setup/</link>
+      <pubDate>Thu, 02 Jul 2020 02:34:24 +0100</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/posts/raspberry-pi/pi-setup/</guid>
+      <description>&lt;p&gt;My Raspberry Pi setup is constantly changing. They are my mini homelab. Used when I want containers to run on a more permanant basis.
+All average at about 3W in power, making them very efficient to their tasks. Most have Docker installed and are blocked from access
+to the internet if hosting private information.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

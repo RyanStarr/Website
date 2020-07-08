@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan Starr</title>
+    <link>https://ryanstarr.co.uk/</link>
+    <description>Recent content on Ryan Starr</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jul 2020 02:34:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://ryanstarr.co.uk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Raspberry Pi Setup</title>
+      <link>https://ryanstarr.co.uk/posts/raspberry-pi/pi-setup/</link>
+      <pubDate>Thu, 02 Jul 2020 02:34:24 +0100</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/posts/raspberry-pi/pi-setup/</guid>
+      <description>&lt;p&gt;My Raspberry Pi setup is constantly changing. They are my mini homelab. Used when I want containers to run on a more permanant basis.
+All average at about 3W in power, making them very efficient to their tasks. Most have Docker installed and are blocked from access
+to the internet if hosting private information.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Skills Experience</title>
+      <link>https://ryanstarr.co.uk/skills-experience/</link>
+      <pubDate>Fri, 05 Jun 2020 23:26:12 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/skills-experience/</guid>
+      <description>Self Taught Servers  FreeNAS Plex Nextcloud vSphere vCenter Nginx Webserver Apache Webserver PiVPN PiHole  Services  Docker + Docker Swarm (basics) Kubernetes (in progress) AWS EC2 Cloudflare + API Zoho Mail PfSense Proxmox  Programs/languages  Python3 Bash Scripting vSphere SOAP API Basic Alexa skill HTML/CSS Hugo (basics) Bootstrap (basics)  Hardware in use  Dell Poweredge R710 Raspberry Pi 1, 2b, 3b+, 4 Cisco switch  Education Plymouth University - Computer Systems and Networks Skills Learned/improved upon  Cisco routing and switching Cyber Security AWS (EC2) ESXI Creating mock organiastion networks Python3 MySQL  Volunteering Community Scrapstore North Somerset Skills used  Communication (explaining complex subjects in simple terms) Domain purchasing Web hosting Email hosting iZettle tablet setup  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://ryanstarr.co.uk/about/</link>
+      <pubDate>Fri, 05 Jun 2020 22:30:42 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/about/</guid>
+      <description>I am a graduate student looking for a gradauate role in Systems Administration ( or similar) within the UK. With a wide range of skills and the motivation to learn any new technology. I will be a very flexible fit for any organisation, as I spend most of my time learning and exploring all areas of technology I can find.
+Latest Projects  This Website (Hugo) Kubernetes DIY Smart Home Tech  Future Projects  Exploring AWS, Azure and Google Cloud in more depth 3D Printing &amp;amp; Scanning Youtube  Hobbies  Messing around with tech Following the latest environmental news (mainly Tesla) Researching the stock market Sci-Fi, Action Dramas (the more confusing the better)  Legion Mr Robot Agents of Shield    Education Plymouth University - Computer Systems and Networks Skills Learned/improved upon  Cisco routing and switching Cyber Security AWS (EC2) ESXI Creating mock organiastion networks Python C# MySQL  </description>
+    </item>
+    
+    <item>
+      <title>Proxmox Setup</title>
+      <link>https://ryanstarr.co.uk/posts/virtualisation/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryanstarr.co.uk/posts/virtualisation/setup/</guid>
+      <description>&lt;p&gt;Proxmox is hosted on my Dell R710 server. With 24 threads, 32GB of RAM and 2 TB of storage. Whilst the R710
+is a powerfull system, it is very power hungry. With a minimum power draw of 180w. As a result I have made
+the decision to only run the server when I wish to mess around with virtual machines.
+It&amp;rsquo;s main purpose is for developing more solid applications that can be deployed to more power efficient systems.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/categories/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/docker/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/gitlab/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/nextcloud/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/posts/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/r710-fan-script/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/categories/raspberry-pi/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/posts/raspberry-pi/pi-setup/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/vpn/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/website/</loc>
+    <lastmod>2020-07-02T02:34:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/skills-experience/</loc>
+    <lastmod>2020-06-05T23:26:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/about/</loc>
+    <lastmod>2020-06-05T22:30:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/dell-r710/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/kubernetes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/pfsense/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/proxmox/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/posts/virtualisation/setup/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/ubuntu/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/categories/virtualisation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ryanstarr.co.uk/tags/windows-server/</loc>
+  </url>
+  
+</urlset>
